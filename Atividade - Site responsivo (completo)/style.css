@@ -1,0 +1,32 @@
+html, body
+{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background: #423a49;
+}
+
+.conteudo
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 100px;
+
+}
+.caixa{
+    width: 30%;
+    height: auto;
+}
+.responsiva
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
