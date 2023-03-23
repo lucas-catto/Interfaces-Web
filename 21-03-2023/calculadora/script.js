@@ -1,5 +1,5 @@
 const display      = document.querySelector('.display');
-const teclas       = document.querySelector('button');
+const teclas       = document.querySelectorAll('button');
 let operador       = '';
 let primeiroNumero = '';
 let segundoNumero  = '';
@@ -61,5 +61,5 @@ teclas.forEach(tecla => {
             }
             display.value += conteudo;
         }
-    })
+    });
 });
