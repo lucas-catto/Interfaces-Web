@@ -1,0 +1,56 @@
+<script>
+    // Exemplo 1:
+    var contador = 0; // nessa linha: declarando o contador.
+    do {
+        console.log(contador); // nessa linha: imprimimos o valor do contador no console
+        contador++; // nessa linha: somamos +1 ao contador
+    } while (contador < 3); // nessa linha: fazemos a verificação, se o contador é menor que 3
+    /*
+    resultado:
+    0
+    1
+    2
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 2:
+    var contador = 0; // nessa linha: declaramos a variável do contador
+    do {
+        console.log("execução: "+contador); // nessa linha: imprimimos no console o texto concatenado a variável do contador 
+        contador++; // nessa linha: soma +1 a variável do contador 
+    } while (contador < 4); // nessa linha: verifica se o contador é menor que 4
+    /*
+    resultado:
+    execução: 0
+    execução: 1
+    execução: 2
+    execução: 3
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 3:
+    var contador = 0; // nessa linha: declaramos a variável do contador
+    do {
+        console.log("-> "+contador); // nessa linha:  imprimimos a concatenação entre o texto e o valor do contador
+        contador++; // nessa linha: somamos +1 ao contador
+    } while (contador < 2); // nessa linha: fazemos a verificação se o contador é menor que 2
+    /*
+    resultado:
+    -> 0
+    -> 1
+    */
+
+    // ---------------------------------------------------------------------------
+    // caso executar o código todo de uma vez, o resulado será: 
+    /*
+    0
+    1
+    2
+    execução: 0
+    execução: 1
+    execução: 2
+    execução: 3
+    -> 0
+    -> 1    
+    */
+</script>
