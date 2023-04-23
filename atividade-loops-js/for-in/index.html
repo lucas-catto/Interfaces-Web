@@ -1,0 +1,60 @@
+<script>
+    //Exemplo 1:
+    vetor = ["Dell","Apple","Sansung","Positivo"]; // nessa linha: declaramos um vetor.
+    for (const key in vetor) { // nessa linha: pegamos a chave (posição de cada item) por execução.
+        console.log("Chave: "+key+" - "+vetor[key]); // nessa linha: imprimimos no console um texto + valor da chave + texto + vetor[na posição do vetor (com o valor da chave)].
+    }
+    /*
+    resultado:
+    Chave: 0 - Dell
+    Chave: 1 - Apple
+    Chave: 2 - Sansung
+    Chave: 3 - Positivo 
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 2:
+    vetor = ["a","b","c","d","e"]; // nessa linha: declaramos um vetor
+    for (const key in vetor) { // nessa linha: pegamos a chave (posição de cada item) por execução.
+        console.log("Chave "+key+" - Vetor = "+vetor[key]); // nessa linha: Imprimimos no console texto + chave de cada item (por execução) + texto + posição do vetor[com a chave].
+    }
+    /*
+    resultado:
+    Chave 0 - Vetor = a
+    Chave 1 - Vetor = b
+    Chave 2 - Vetor = c
+    Chave 3 - Vetor = d
+    Chave 4 - Vetor = e
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 3:
+    vetorPersonagens = ["Oliver Queen", "Felicity Smoak", "John Diggle"]; // nessa linha: declaramos um vetor 
+    for (const key in vetorPersonagens) { // nessa linha: pegamos a chave (posição de cada item) por execução.
+        console.log("Personagem "+key+": "+vetorPersonagens[key]); // nessa linha: imprimimos no comsole texto + chave + texto + vetor[na posição com o valor da chave].
+    }
+    /*
+    resulado:
+    Personagem 0: Oliver Queen
+    Personagem 1: Felicity Smoak
+    Personagem 2: John Diggle
+    */
+
+
+    // ---------------------------------------------------------------------------
+    // caso executar o código todo de uma vez, o resulado será: 
+    /*
+    Chave: 0 - Dell
+    Chave: 1 - Apple
+    Chave: 2 - Sansung
+    Chave: 3 - Positivo 
+    Chave 0 - Vetor = a
+    Chave 1 - Vetor = b
+    Chave 2 - Vetor = c
+    Chave 3 - Vetor = d
+    Chave 4 - Vetor = e
+    Personagem 0: Oliver Queen
+    Personagem 1: Felicity Smoak
+    Personagem 2: John Diggle       
+    */
+</script>
