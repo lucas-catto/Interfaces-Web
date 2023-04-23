@@ -1,0 +1,69 @@
+<script>
+    //Exemplo 1:
+    vetor = ["Moto","Carro","Caminhão"]; // nessa linha: declaramos um vetor
+    for (const item of vetor) { // nessa linha: A ideia aqui é "para cada item em vetor, (dentro de cada execução) um item partindo da posição 0 será atribuído ao item".
+        console.log(item) // nessa linha: imprimimos no console o valor que foi atribuído ao item.
+    }
+    /*
+    resultado:
+    Moto
+    Carro
+    Caminhão
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 2:
+    var palavra = "Javascript"; // nessa linha: declaramos um variável (string == texto) com uma palavra.
+    for (const letra of palavra) { // nessa linha: para cada letra em palavra será atribuído a letra do loop.
+        console.log(letra); // nessa linha: imprime no console o que foi atribuído a variável letra.
+    }
+    /*
+    resultado:
+    J
+    a
+    v
+    a
+    s
+    c
+    r
+    i
+    p
+    t
+    */
+
+    // ----------------------------------------------------------
+    // Exemplo 2:
+    vetor = ["a","b","c"]; // nessa linha: declaramos um vetor.
+    var contador = 0; // nessa linha: declaramos um variável para contador.
+    for (const item of vetor) { // nessa linha:  para cada item em vetor será atribuído ao item.
+        contador++; // nessa linha: somamos +1 ao contador.
+        console.log(contador+" <=> "+item); // nessa linha: imprimimos no console a concatenação do contador + texto + item (valor do vetor que foi atribuído a essa variável (item)).
+    }
+    /*
+    resultado:
+    1 <=> a
+    2 <=> b
+    3 <=> c
+    */
+
+    // ---------------------------------------------------------------------------
+    // caso executar o código todo de uma vez, o resulado será:
+    /*
+    Moto
+    Carro
+    Caminhão
+    J
+    a
+    v
+    a
+    s
+    c
+    r
+    i
+    p
+    t
+    1 <=> a
+    2 <=> b
+    3 <=> c
+    */ 
+</script>
