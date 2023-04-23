@@ -1,0 +1,93 @@
+<script>
+
+    // Exemplo 1:
+    var contador = 0; // nessa linha: declaramos a variável do contador.
+    while (contador < 10) { // nessa linha: fazemos a verificação se o contador é menor que 10.
+        console.log(contador); // nessa linha: imprimimos no console o valor da variável 'contador'.
+        contador++; // nessa linha: (muito importante), temos o contador que a cada execução soma mais 1, se não houver contador nesse tipo de estrutura, executará eternamente.
+    }
+    /*
+    resultado:
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    o resultado foi de 0~9 e não 1~10 pois o contador começa de 0, e a verifiação é se é menor que 10, e não menor e igual.
+    */
+
+
+    // ----------------------------------------------------------
+    // Exemplo 2:
+    var contador =  10; // nessa linha: o contador começa em 10
+    while (contador > 0) { // nessa linha: enquanto o contador for maior que 0, executará.
+        console.log(contador); // nessa linha:  imprime o valor do contador.
+        contador--; // nessa linha: subtrai 1 do contador, que começou em 10
+    }
+    /*
+    resultado:
+    10
+    9
+    8
+    7
+    6
+    5
+    4
+    3
+    2
+    1
+    o resultado não vai até o 0 pois a condição é ser maior que 0 e não maior ou igual
+    */
+
+    
+    // ----------------------------------------------------------
+    // Exemplo 3:
+    vetor = ["HTML","CSS","Javascript"]; // nessa linha: declaração de um vetor simples
+    var contador = 0; // nessa linha: declaração da variável 'contador' 
+    while (contador < vetor.length) { // nessa linha: enquanto o contador for menor que o número de itens dentro do vetor
+        console.log(vetor[contador]); // nessa linha: imprima no console a posição do vetor com base no valor do contador
+        contador++; // nessa linha: soma +1 na variável 'contador'
+    }
+    /*
+    resultado:
+    HTML
+    CSS
+    JavaScript
+    */
+
+
+
+
+   // ---------------------------------------------------------------------------
+   // caso executar o código todo de uma vez, o resulado será: 
+   /*
+   0
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+   HTML
+   CSS
+   Javascript
+   */
+</script>
