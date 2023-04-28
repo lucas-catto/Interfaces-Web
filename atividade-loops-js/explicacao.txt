@@ -1,0 +1,21 @@
+|==================================================|
+|Quando usar cada um:                              |
+|==================================================|
+|- do-while:                                       |
+|Quando ser quer que faça ao menos uma execução.   |
+|==================================================|
+|- for                                             |
+|Ler vetores de forma simples.                     |
+|==================================================|
+|- for-in                                          |
+|Ler vetores pela chave.                           |
+|==================================================|
+|- for-of                                          |
+|Atribuir o valor do vetor da execução a uma       |
+|variável da execução.                             |
+|==================================================|
+|- while                                           |
+|Verifica antes de executar, é a mesma função      |
+|do do-while, mas faz a verificação antes          |
+|de executar.                                      |
+|==================================================|
