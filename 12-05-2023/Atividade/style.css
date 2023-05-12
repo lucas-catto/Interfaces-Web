@@ -1,0 +1,51 @@
+*
+{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body
+{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(102,73,166);
+}
+
+.pagina
+{
+    width:100%;
+    max-width:1200px;
+    height:100%;
+    background-color:rgb(4,191,173);
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:22% 22% 22% 22%;
+    justify-content:space-around;
+    padding:25px;
+}
+
+img
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    vertical-align:middle;
+    background-size:contain;
+    border:2px solid rgb(255,255,255);
+}
+
+#img-1
+{
+    background-image:url("img/img-1.jpg");
+    transition:2s;
+}
+
+#img-1:hover
+{
+    background-image:url("img/img-2.jpg");
+    cursor:pointer;
+    transition:500ms;
+}
+
