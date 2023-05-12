@@ -1,0 +1,9 @@
+Atividade (Interface Web II)
+
+Desenvolver uma página com HTML/CSS/JS que apresente uma imagem.
+
+Ao passar o mouse sobre a imagem, ela será trocada por outra. Ao retirar o mouse da imagem, a imagem original voltará.
+
+Explicar:
+1. Evento do HTML responsável por detectar o movimento do mouse sobre a imagem.
+2. Método do Javascript responsável pela troca da imagem (src) quando o mouse passar por cima da imagem.
