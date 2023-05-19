@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*
+{
+    box-sizing:border-box;
+}
+
+html, body
+{
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    height:auto;
+    min-height:100%;
+    background-color:rgb(84,0,174);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h3 {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button#reset {
+    background-color: #f44336;
+}
+
+button#adi {
+    background-color: #4CAF50;
+}
+
+button#sub {
+    background-color: #008CBA;
+}
+
+button#div {
+    background-color: #e7e7e7;
+    color: #333;
+}
+
+button#mult {
+    background-color: #555555;
+}
+
