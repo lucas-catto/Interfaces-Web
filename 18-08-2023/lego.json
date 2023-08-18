@@ -1,0 +1,74 @@
+{
+    "legos" : [
+        {
+            "id"          : 1,
+            "name"        : "LEGO City Fire Station",
+            "description" : "Build a bustling fire station with firefighters and fire truck.",
+            "price"       : "$49.99",
+            "image"       : "./img/1.png"    
+        },
+        {
+            "id"          : 2,
+            "name"        : "LEGO Star Wars Millennium Falcon",
+            "description" : "Recreate epic Star Wars battles with the iconic Millennium Falcon.",
+            "price"       : "$129.99",
+            "image"       : "./img/2.png"
+        },
+        {
+            "id"          : 3,
+            "name"        : "LEGO Creator Expert Carousel",
+            "description" : "Build a classic carousel with detailed decorations and moving functions.",
+            "price"       : "$179.99",
+            "image"       : "./img/3.png"
+        },
+        {
+            "id"          : 4,
+            "name"        : "LEGO Friends Heartlake City Resort",
+            "description" : "Create a fun vacation resort in Heartlake City with slides and water features.",
+            "price"       : "$89.99",
+            "image"       : "./img/4.png"
+        },
+        {
+            "id"          : 5,
+            "name"        : "LEGO Technic Bugatti Chiron",
+            "description" : "Build a stunning replica of the Bugatti Chiron supercar with intricate details.",
+            "price"       : "$349.99",
+            "image"       : "./img/5.png"
+        },
+        {
+            "id"          : 6,
+            "name"        : "LEGO Harry Potter Hogwarts Castle",
+            "description" : "Recreate the magical world of Harry Potter with this detailed Hogwarts Castle set.",
+            "price"       : "$129.99",
+            "image"       : "./img/6.png"
+        },
+        {
+            "id"          : 7,
+            "name"        : "LEGO Architecture Statue of Liberty",
+            "description" : "Celebrate iconic architecture with a LEGO replica of the Statue of Liberty.",
+            "price"       : "$99.99",
+            "image"       : "./img/7.png"
+        },
+        {
+            "id"          : 8,
+            "name"        : "LEGO Disney Princess Cinderella's Castle",
+            "description" : "Build Cinderella's enchanting castle from the Disney Princess world.",
+            "price"       : "$74.99",
+            "image"       : "./img/8.png"
+        },
+        {
+            "id"          : 9,
+            "name"        : "LEGO Marvel Super Heroes Avengers Tower",
+            "description" : "Join the Avengers in defending the city with this action-packed tower set.",
+            "price"       : "$69.99",
+            "image"       : "./img/9.png"
+        },
+        {
+            "id"          : 10,
+            "name"        : "LEGO Ninjago Destiny's Bounty",
+            "description" : "Embark on epic adventures with the Ninjago ninja team aboard the Destiny's Bounty ship.",
+            "price"       : "$119.99",
+            "image"       : "./img/10.png"
+        }
+    ]
+}
