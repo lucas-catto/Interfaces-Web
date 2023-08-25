@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <noticia>
+        <titulo>Palhaço Belezinha salva gato em árvore na rua 1º de Março</titulo>
+        <descricao>O palhaço Belezinha mostrou que, além de fazer rir, tem um grande coração ao salvar um gatinho preso em uma árvore em Barra Bonita.</descricao>
+        <imagem>img/1.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>Barco temático de unicórnios é a nova atração em Barra Bonita</titulo>
+        <descricao>Os passeios pelo rio em Barra Bonita nunca mais serão os mesmos com o novo barco temático de unicórnios. Uma aventura mágica!</descricao>
+        <imagem>img/2.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>Festival de balões coloridos ilumina o céu de Barra Bonita</titulo>
+        <descricao>Centenas de balões multicoloridos deram um show à parte neste fim de semana em Barra Bonita, encantando moradores e turistas.</descricao>
+        <imagem>img/3.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>Novo parque  promete ser a sensação do verão em Barra Bonita</titulo>
+        <descricao>Prepare-se para se divertir! O mais novo parque de Barra Bonita promete uma experiência inesquecível para toda a família.</descricao>
+        <imagem>img/4.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>McDonald's chega à cidade, trazendo os sabores icônicos da marca para os moradores</titulo>
+        <descricao>Os moradores da cidade têm um motivo emocionante para comemorar, pois um novo capítulo na cena gastronômica está prestes a começar. O tão aguardado McDonald's está prestes a abrir suas portas, trazendo consigo uma experiência culinária globalmente reconhecida.</descricao>
+        <imagem>img/5.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>Descoberta de nova espécie de borboleta encanta cientistas e entusiastas da natureza</titulo>
+        <descricao>Uma equipe de biólogos anunciou a emocionante descoberta de uma nova espécie de borboleta na região montanhosa da cidade. Com padrões de cores vibrantes e asas exóticas, essa descoberta está intrigando a comunidade científica e encantando os amantes da natureza.</descricao>
+        <imagem>img/6.png</imagem>
+    </noticia>
+    <noticia>
+        <titulo>Empresa local lança aplicativo inovador para ensino de idiomas usando realidade virtual</titulo>
+        <descricao>Uma empresa de tecnologia da cidade está revolucionando a forma como aprendemos idiomas com o lançamento de um aplicativo pioneiro que utiliza realidade virtual. Agora, os alunos podem mergulhar em ambientes virtuais imersivos para praticar conversação e aprimorar suas habilidades linguísticas.</descricao>
+        <imagem>img/7.png</imagem>
+    </noticia>
+</noticias>
