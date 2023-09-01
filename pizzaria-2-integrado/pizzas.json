@@ -1,0 +1,112 @@
+{
+    "pizza" : [
+        {
+            "image"     : "./img/pizza-carne-seca.jpg",
+            "nome"      : "CARNE SECA SEM GLÚTEN",
+            "descricao" : "MOZARELA, CARNE SECA DESFIADA, FATIAS DE CEBOLAS, CATUPIRY E ORÉGANO",
+            "preco"     : "R63,00"
+        },
+        {
+            "image"     : "./img/pizza-mexicana-1.jpg",
+            "nome"      : "MEXICANA SEM GLÚTEN",
+            "descricao" : "MOZARELA, CARNE MOÍDA, PIMENTA CHILLI, PIMENTA CAMBUCI, CHEDDAR CREMOSO, TORTILHAS DE MILHO SEM GLÚTEN E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-mignon-com-catupiry.jpg",
+            "nome"      : "MIGNON COM CATUPIRY SEM GLÚTEN",
+            "descricao" : "MOZARELA, TIRAS DE MIGNON E CATUPIRY COBERTOS COM MOZARELA E ORÉGANO",
+            "preco"     : "R$56,00"
+        },
+        {
+            "image"     : "./img/pizza-mignon-especial.jpg",
+            "nome"      : "MIGNON ESPECIAL SEM GLÚTEN",
+            "descricao" : "MOZARELA, TIRAS DE MIGNON, CEBOLA, TOMATE, CHAMPIGNON, PARMESÃO E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-strogonoff-de-mignon.jpg",
+            "nome"      : "STROGONOFF DE MIGNON SEM GLÚTEN",
+            "descricao" : "MOZARELA, STROGONOFF DE MINGNON, BATATA PALHA E ORÉGANO",
+            "preco"     : "R$77,00"
+        },
+        {
+            "image"     : "./img/pizza-emporio.jpg",
+            "nome"      : "EMPÓRIO SEM GLÚTEN",
+            "descricao" : "MOZARELA, FRANGO DESFIADO, CALABRESA, TOMATE, CEBOLA, PIMENTÃO COBERTOS COM MOZARELA E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-frango-com-catupiry.jpg",
+            "nome"      : "FRANGO COM CATUPIRY SEM GLÚTEN",
+            "descricao" : "MOZARELA, PEITO DE FRANGO DESFIADO, CATUPIRY E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-olimpia.jpg",
+            "nome"      : "OLÍMPIA SEM GLÚTEN",
+            "descricao" : "MOZARELA, PEITO DE FRANGO DESFIADO E COGUMELO PARIS COBERTOS COM QUEIJO PROVOLONE E ORÉGANO",
+            "preco"     : "R$73,00"
+        },
+        {
+            "image"     : "./img/pizza-de-bacon.jpg",
+            "nome"      : "BACON SEM GLÚTEN",
+            "descricao" : "MOZARELA, PEQUENAS FATIAS DE BACON FRITO E ORÉGANO",
+            "preco"     : "R$85,00"
+        },
+        {
+            "image"     : "./img/pizza-camponesa.jpg",
+            "nome"      : "CAMPONESA SEM GLÚTEN",
+            "descricao" : "MOZARELA, BRÓCOLIS, BACON, ALHO AO AZEITE DE OLIVA, CATUPIRY E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-crocante.jpg",
+            "nome"      : "CROCANTE SEM GLÚTEN",
+            "descricao" : "MOZARELA, BACON, CATUPIRY, BATATA PALHA E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-escarola-com-bacon.jpg",
+            "nome"      : "ESCAROLA COM BACON SEM GLÚTEN",
+            "descricao" : "MOZARELA, ESCAROLA REFOGADA, BACON E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-milho-e-bacon.jpg",
+            "nome"      : "MILHO E BACON SEM GLÚTEN",
+            "descricao" : "MOZARELA, MILHO, BACON E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-pepone.jpg",
+            "nome"      : "PEPONE SEM GLÚTEN",
+            "descricao" : "MOZARELA, FATIAS DE TOMATE, BACON, CATUPIRY, PARMESÃO E ORÉGANO",
+            "preco"     : "R$59,00"
+        },
+        {
+            "image"     : "./img/pizza-baiana.jpg",
+            "nome"      : "BAIANA SEM GLÚTEN",
+            "descricao" : "MOZARELA, CALABRESA RALADA, OVO, PIMENTA CALABRESA, CEBOLA COBERTOS COM PARMESÃO E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-calabresa-com-catupiry.jpg",
+            "nome"      : "CALABRESA COM CATUPIRY SEM GLÚTEN",
+            "descricao" : "MOZARELA, CALABRESA FATIADA, AZEITONAS VERDES, CATUPIRY E ORÉGANO",
+            "preco"     : "R$65,00"
+        },
+        {
+            "image"     : "./img/pizza-de-calabresa-com-cebola.jpg",
+            "nome"      : "CALABRESA COM CEBOLA SEM GLÚTEN",
+            "descricao" : "MOZARELA, CALABRESA FATIADA, CEBOLA EM RODELAS E ORÉGANO",
+            "preco"     : "R$69,00"
+        },
+        {
+            "image"     : "./img/pizza-romana.jpg",
+            "nome"      : "ROMANA SEM GLÚTEN",
+            "descricao" : "MOZARELA, CALABRESA, FATIAS DE TOMATE, PARMESÃO E ORÉGANO",
+            "preco"     : "R$93,00"
+        }
+    ]
+}
