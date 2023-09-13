@@ -6,28 +6,25 @@ document.addEventListener("DOMContentLoaded", function(){
         .then(response => response.json())
         .then(data => {
             
-            let arrow = '';
+            let arrows = '';
 
             data.Arrow.forEach(arrow => {
-                arrow += `
+
+                arrows += `
                     <div class="card">
-                        <img src="${arrow.imagem}">
+
+                        <img src="${arrow.Imagem}">
                         
-                        ${arrow.Numero}
-                        
-                        ${arrow.Nome}
-                        
-                        ${arrow.Habilidade}
-                        
-                        ${arrow.Descricao}
-                        
-                        ${arrow.Imagem}
-                        
-                        ${arrow.Temporada}
+                        <div class="itens">
+                            <div class="Nome">${                    arrow.Nome       }</div>
+                            <div class="Habilidade">Habilidade: ${  arrow.Habilidade }</div>
+                            <div class="Descricao">${               arrow.Descricao  }</div>
+                            <div class="Temporada">Temporada(s): ${ arrow.Temporada  }</div>
+                        </div>
                     </div>
                 `;
             });
-            document.getElementById('container').innerHTML = pizzas;
+            document.getElementById('container').innerHTML = arrows;
         })
-        .catch(error = console.error('Erro ao buscar pizzas:', error));
+        .catch(error = console.error('Erro ao buscar personagens:', error));
 });
