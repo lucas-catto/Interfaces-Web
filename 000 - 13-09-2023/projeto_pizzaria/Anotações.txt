@@ -1,0 +1,6 @@
+<div class="pizza">
+	<img src="img/1.jpg" alt="Nome da Pizza: Carne seca; Ingredientes: Mozarela, carne seca desfiada, fatias de cebolas, catupiry e orégano">
+        <div class="nome">Carne Seca</div>
+        <div class="ingridentes">Mozarela, carne seca desfiada, fatias de cebolas, catupiry e orégano</div>
+        <div class="preco">R$65,00</div>
+</div>
